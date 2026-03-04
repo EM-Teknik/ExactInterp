@@ -5,6 +5,9 @@ See preferences.
 
 <img width="909" height="412" alt="image" src="https://github.com/user-attachments/assets/7dca517f-33b3-4a1f-a116-44efeac6eb27" />
 
+
+Extensions -> EM-Teknik is the submenue.
+
 Select two paths. Interpolate between these. Typically these paths are created by copying the first path and then edit the copy. The number of nodes must be the same in both paths. 
 
 <img width="1269" height="535" alt="image" src="https://github.com/user-attachments/assets/da2cdc83-d142-43e4-9903-b5e93d34f1ba" />
