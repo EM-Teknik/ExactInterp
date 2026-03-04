@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+
+    <name>ExactInterp2512</name>
+    <id>EM-Teknik.ExactInterp2512</id>
+
+    <label>Exact interpolation on Bezier curves (Pen Tool) </label> 
+
+    <param name="use_t" type="bool"  gui-text="Use t (gives 2 intervals)">false</param>  
+    <param name="t" type="float" gui-text="t (0-5):" precision="2" min="0" max="5" >0.5</param>
+    <label>else use Intervals </label> 
+    <param name="intervals" type="int"   gui-text="Intervals (2-10):" min="2" max="10">5</param>
+    <label>Documentation: https://github.com/EM-Teknik/ExactInterp</label>    
+    <effect>
+        <object-type>path</object-type>
+        <effects-menu>
+            <submenu name="EM-Teknik"/>
+        </effects-menu>
+    </effect>
+
+    <script>
+        <command location="inx" interpreter="python">ExactInterp2512.py</command>
+.py</command>
+    </script>
+</inkscape-extension>
